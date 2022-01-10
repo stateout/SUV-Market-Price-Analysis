@@ -1,0 +1,48 @@
+﻿Automaker,Vehicle Type,Vehicle Class,Model,Year,Trim,Base Price
+Ford,SUV,Compact,Escape,2022,SEL,33849
+Ford,SUV,Mid-size,Edge,2022,SEL,41099
+Ford,SUV,Mid-size,Explorer,2022,XLT,46199
+Ford,SUV,Mid-size,Explorer,2022,Limited,51449
+Ford,Truck,Mid-size,Ranger,2021,XLT,35358
+Ford,Truck,Full-size,F150,2021,XLT,38685
+Ford,Truck,Full-size,F150,2021,Lariat,55795
+Chevrolet,SUV,Compact,Equinox,2022,LT,32948
+Chevrolet,SUV,Mid-size,Traverse,2022,LT,46193
+Chevrolet,SUV,Mid-size,Traverse,2022,RS,52768
+Chevrolet,Truck,Mid-size,Colorado,2022,LT,40298
+Chevrolet,Truck,Full-size,Silverado,2022,LT,55368
+Dodge,SUV,Mid-size,Durango,2021,SXT,43849
+Dodge,SUV,Mid-size,Durango,2021,Citadel,55549
+Jeep,SUV,Compact,Cherokee,2022,North,34748
+Jeep,SUV,Compact,Cherokee,2022,Limited,38680
+Jeep,SUV,Compact,Grand Cherokee,2022,Limited,57745
+Honda,SUV,Compact,HR-V,2022,LX-AWD,28500
+Honda,SUV,Compact,CR-V,2022,LX,33570
+Honda,SUV,Compact,CR-V,2022,Touring,42870
+Honda,SUV,Mid-size,Pilot,2022,EX-L Navi,49620
+Honda,Truck,Mid-size,Ridgeline,2022,Touring,52735
+Toyota,SUV,Compact,CH-R,2022,XLE,26750
+Toyota,SUV,Compact,Corolla Cross,2022,LE AWD,28490
+Toyota,SUV,Compact,RAV4,2022,LE AWD,30950
+Toyota,SUV,Compact,RAV4,2022,XLE AWD,34550
+Toyota,SUV,Mid-size,Highlander,2022,XLE,47650
+Toyota,Truck,Mid-size,Tacoma,2022,4X4 Double Cab 6A,40350
+Toyota,Truck,Full-size,Tundra,2022,4X4 Crewmax SR,50290
+Nissan,SUV,Compact,Kicks,2021,SV,23098
+Nissan,SUV,Compact,Qashqai,2021,SV AWD,29198
+Nissan,SUV,Compact,Rogue,2022,SV,35598
+Nissan,SUV,Mid-size,Pathfinder,2022,SV,46998
+Nissan,Truck,Mid-size,Frontier,2022,Crew Cab SV,43998
+Volkswagen,SUV,Compact,Taos,2022,Comfortline,32395
+Volkswagen,SUV,Compact,Tiguan,2022,Comfortline,37195
+Volkswagen,SUV,Mid-size,Atlas,2022,Comfortline,46195
+Mitsubishi,SUV,Compact,RVR,2022,SE AWC,28838
+Mitsubishi,SUV,Mid-size,Outlander,2022,LE S-AWC Premium,40208
+Hyundai,SUV,Compact,Venue,2022,Preferred,21699
+Hyundai,SUV,Compact,Tuscon,2022,Preferred,30299
+Hyundai,SUV,Mid-size,Santa Fe,2022,Preferred,36699
+Kia,SUV,Compact,Soul,2022,EX ,23195
+Kia,SUV,Compact,Seltos,2022,LX,25595
+Kia,SUV,Compact,Sportage,2022,LX,27995
+Kia,SUV,Compact,Sportage,2022,EX S,32795
+Kia,SUV,Mid-size,Sorento,2022,EX,41595
