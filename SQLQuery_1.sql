@@ -6,5 +6,11 @@ SELECT * FROM SUVTruckInfo
 
 UPDATE SUVTruckInfo
 SET Vehicle_Class = 'Mid-size' 
-WHERE Automaker = 'Jeep' AND Model = '%Grand Cherokee%'
+WHERE Automaker = 'Jeep' AND Model = 'Grand Cherokee'
+
+-- Alternatively, the following query would also work --
+
+UPDATE SUVTruckInfo
+SET Vehicle_Class = 'Mid-size'
+WHERE Automaker LIKE 'JE%' AND Model LIKE 'Grand%'
 
