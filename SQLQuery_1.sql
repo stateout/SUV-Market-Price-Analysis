@@ -35,5 +35,29 @@ ORDER BY Base_Price ASC
 SELECT * FROM VehiclePriceComparison.dbo.SUVTruckInfo
 WHERE Automaker ='Ford' OR Automaker = 'Chevrolet' OR Automaker = 'Dodge' OR Automaker = 'Jeep'
 
+-- Query used to insert a new row of data into the existing table --
+
+INSERT INTO VehiclePriceComparison.dbo.SUVTruckInfo
+(Automaker, Vehicle_Type, Vehicle_Class, Model, Year, Trim, Base_Price, Fuel_Type)
+VALUES 
+('Ram', 'Truck', 'Full-size','1500','2022','Big Horn','60685','Gasoline')
+
+/* This query was used because of incomplete data. There was no data on Ram trucks despite having all other pick-up truck data available. */
+
+-- Query was used to full in an empty column called Fuel_Type --
+
+UPDATE VehiclePriceComparison.dbo.SUVTruckInfo
+SET Fuel_Type = 'Gasoline' 
+WHERE Fuel_Type IS NULL
+
+/* Since all vehicles in the SUVTruckInfo table are gasoline vehicles, the Fuel_Type column could easily be corrected by mass.
+However, if for example the Ford Escape 2022 SEL were Hybrid, we would use the following query below */
+
+UPDATE VehiclePriceComparison.dbo.SUVTruckInfo
+SET Fuel_Type = 'Hybrid' 
+WHERE Model = 'Escape' 
+
+
+
 
 
